@@ -2,7 +2,7 @@
   "name": "LIRIbot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "keys.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/KristenDLR/LIRIbot.git"
   },
-  "keywords": [],
+  "keywords": [
+    "node",
+    "axios"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -19,7 +22,10 @@
   "homepage": "https://github.com/KristenDLR/LIRIbot#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "fs": "0.0.1-security",
     "inquirer": "^6.3.1",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1"
   }
 }
