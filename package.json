@@ -1,0 +1,25 @@
+{
+  "name": "LIRIbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristenDLR/LIRIbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KristenDLR/LIRIbot/issues"
+  },
+  "homepage": "https://github.com/KristenDLR/LIRIbot#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "inquirer": "^6.3.1",
+    "moment": "^2.24.0"
+  }
+}
